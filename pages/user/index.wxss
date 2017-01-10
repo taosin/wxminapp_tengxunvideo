@@ -1,8 +1,9 @@
-.container{
-	padding: 0;
-	font-family: '微软雅黑';
+.containers{
+	font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+	width: 100%;
 }
 .userinfo{
+	margin: 0 auto;
 	margin-top: 20px;
 	width: 60px;
 	text-align: center;
@@ -12,7 +13,6 @@
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	margin: 0 auto;
 	margin-bottom: 10px;
 }
 .userinfo-nickname{
@@ -20,14 +20,13 @@
 	font-weight: 700;
 }
 .userinfo-vip{
-	border-top: 1px solid #b8b8b8; 
+	border-top: 1px solid #ddd;
 	height: 60px;
 	padding-left: 30px;
-	width: 100%;
 	padding-top: 20px;
 }
 .vip-right{
-	width: 90%;
+	/*width: 90%;*/
 }
 .icon{
 	width: 24px;
@@ -38,7 +37,6 @@
 }
 .vip-info{
 	font-size: 14px;
-	clear: both;
 }
 .vip-desc{
 	font-size: 12px;
@@ -51,11 +49,18 @@
 	background: #f5f7f9;
 }
 .watch-history{
-	padding-top: 10px;
+	padding-top: 30px;
 	width: 100%;
 	padding-left: 30px;
 }
 .text-history{
 	text-align: left;
+	width: 85%;
+	float: left;
+	font-size: 16px;
+}
+.history-img{
+	width: 15px;
+	height: 15px;
 	float: left;
 }

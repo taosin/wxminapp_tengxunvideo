@@ -1,7 +1,7 @@
 <!--index.wxml-->
-<view class="container">
+<view class="containers">
 	<view class="userinfo">
-		<image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+		<image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
 		<text class="userinfo-nickname">{{userInfo.nickName}}</text>
 	</view>
 	<view class="userinfo-vip">
@@ -15,6 +15,6 @@
 	</view>
 	<view class="watch-history">
 		<text class="text-history">观看历史</text>
-		
+		<image class="history-img" src="/images/arrowright.png"/>
 	</view>
 </view>
